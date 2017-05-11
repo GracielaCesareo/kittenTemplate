@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  height: 1000px;
+  background-image: url(../img/Landscape.jpg);
+  background-size: 100%;
+}
+
+.gato {
+  display: none;
+}
+
+@media (min-width: 0px) and (max-width: 320px) {
+  #gato1 {
+    display: block;
+    width: 50%;
+    height: 50%;
+  }
+  .container {
+    background-image: url(../img/maxresdefault.jpg);
+    background-repeat: no-repeat;
+    background-size: 50%;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 480px) {
+  #gato3 {
+    display: block;
+    width: 50%;
+    height: 50%;
+  }
+  .container {
+    background-image: url(../img/scene.png);
+    background-repeat: no-repeat;
+    background-size: 70%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  #gato2 {
+    display: block;
+    width: 50%;
+    height: 50%;
+  }
+  .container {
+    background-image: url(../img/scene.png);
+    background-repeat: no-repeat;
+    background-size: 90%;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1200px;) {
+  #gato2 {
+    display: block;
+    width: 50%;
+    height: 50%;
+  }
+  .container {
+    background-image: url(../img/Landscape.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+}
